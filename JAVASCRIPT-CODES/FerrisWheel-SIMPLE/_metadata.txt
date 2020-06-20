@@ -1,0 +1,16 @@
+title: Simple Ferris Wheel
+logo-image: SimpleFerrisWheel/SimpleFerris.png
+author: Wolfgang Christian
+copyright: 
+author-image: images/WC_logo.png
+main-script: 
+main-simulation: SimpleFerrisWheel_Simulation.html
+html-contents: SimpleFerrisWheel_Contents.html
+html-main: SimpleFerrisWheel.html
+page-title: Simple Ferris Wheel
+page-index: SimpleFerrisWheel/SimpleFerrisWheel.html
+page-index: SimpleFerrisWheel_Simulation.html
+resource: SimpleFerrisWheel/SimpleFerris.png
+resource: SimpleFerrisWheel/SimpleFerrisWheel.html
+resource: SimpleFerrisWheel/SimpleFerrisWheel.jpg
+resource: images/WC_logo.png
