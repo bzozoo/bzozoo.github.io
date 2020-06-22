@@ -4,3 +4,11 @@
  <button id="testclick">TEST CLICK</button>
  <p id="output"></p>
 </div>
+<script>
+let output = document.querySelector("#output");
+let testclick = document.querySelector("#testclick");
+testclick.addEventListener('click', testclickevent);
+function testclickevent () {
+ output.innerHTML = "TEST CLICK IS WORKING";
+}
+</script>0
