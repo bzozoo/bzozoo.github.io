@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <script src="w3.js"></script>
+ <link rel="stylesheet" href="default.css" />
+<head>
+<title>CONTENT IN PARENT</title>
+</head>
+<body>
+
+  <div class="parentbox">
+  THIS IS THE PARENT DIV
+     <div w3-include-html="content.html"></div> 
+  </div>
+
+        <script>
+         includeHTML();
+
+       </script>
+	    <script>
+		
+document.addEventListener('click',function(e) {
+var elem = e.target;
+if(elem && elem.id == "testclick"){
+alert("teszt");
+}
+});
+	  /* let output = document.querySelector("#output");
+      let testclick = document.querySelector("#testclick");
+      testclick.addEventListener('click', testclickevent());
+      function testclickevent () {
+      output.innerHTML = "TEST CLICK IS WORKING";
+      } * /
+   </script>
+</body>
+</html>
