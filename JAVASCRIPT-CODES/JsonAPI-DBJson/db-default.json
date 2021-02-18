@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Big Tom",
+      "email": "bogtom@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Little Jimmy",
+      "email": "littlejimmy@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Mid John",
+      "email": "midjohn@gmail.com"
+    },
+    {
+      "name": "Ceruza Elemér",
+      "email": "elemer@gmail.com",
+      "createdAt": 1597078474384,
+      "id": 4
+    },
+    {
+      "name": "Teszt Elek",
+      "email": "tesztmail@gmail.com",
+      "createdAt": 1597080497100,
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Some comment...",
+      "userId": 1
+    }
+  ]
+}

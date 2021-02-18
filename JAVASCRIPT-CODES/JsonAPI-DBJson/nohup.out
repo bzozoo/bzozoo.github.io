@@ -1,0 +1,187 @@
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://sq.mysqhost.tk:3001/users
+  http://sq.mysqhost.tk:3001/comments
+
+  Home
+  http://sq.mysqhost.tk:3001
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [36m304[0m 3.573 ms - -[0m
+[0mGET /__rules [33m404[0m 2.580 ms - 2[0m
+[0mGET /db [36m304[0m 0.527 ms - -[0m
+[0mGET /__rules [33m404[0m 2.255 ms - 2[0m
+[0mGET /users [32m200[0m 5.858 ms - 245[0m
+[0mGET /comments [32m200[0m 3.278 ms - 71[0m
+[0mGET /users [36m304[0m 3.429 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://sq.mysqhost.tk:3001/users
+  http://sq.mysqhost.tk:3001/comments
+
+  Home
+  http://sq.mysqhost.tk:3001
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [32m200[0m 8.386 ms - 391[0m
+[0mGET /__rules [33m404[0m 1.876 ms - 2[0m
+[0mGET /users [32m200[0m 6.294 ms - 245[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://https://sq.mysqhost.tk:3001/users
+  http://https://sq.mysqhost.tk:3001/comments
+
+  Home
+  http://https://sq.mysqhost.tk:3001
+
+  Type s + enter at any time to create a snapshot of the database
+Some error occurred Error: getaddrinfo ENOTFOUND https://sq.mysqhost.tk
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://sq.mysqhost.tk'
+}
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://https://sq.mysqhost.tk:3001/users
+  http://https://sq.mysqhost.tk:3001/comments
+
+  Home
+  http://https://sq.mysqhost.tk:3001
+
+  Type s + enter at any time to create a snapshot of the database
+Some error occurred Error: getaddrinfo ENOTFOUND https://sq.mysqhost.tk
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://sq.mysqhost.tk'
+}
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://https://sq.mysqhost.tk:3001/users
+  http://https://sq.mysqhost.tk:3001/comments
+
+  Home
+  http://https://sq.mysqhost.tk:3001
+
+  Type s + enter at any time to create a snapshot of the database
+Some error occurred Error: getaddrinfo ENOTFOUND https://sq.mysqhost.tk
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://sq.mysqhost.tk'
+}
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://sq.mysqhost.tk:3001/users
+  http://sq.mysqhost.tk:3001/comments
+
+  Home
+  http://sq.mysqhost.tk:3001
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /__rules [33m404[0m 5.754 ms - 2[0m
+[0mGET /db [36m304[0m 0.866 ms - -[0m
+[0mGET /users [36m304[0m 5.525 ms - -[0m
+[0mGET /users [36m304[0m 3.429 ms - -[0m
+[0mGET /users [36m304[0m 5.903 ms - -[0m
+internal/modules/cjs/loader.js:968
+  throw err;
+  ^
+
+Error: Cannot find module 'json-server'
+Require stack:
+- /var/www/zz-json-database/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/var/www/zz-json-database/app.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/var/www/zz-json-database/app.js' ]
+}
+Go to https://sq.mysqhost.tk:3001/
+[0mGET /users [32m200[0m 2011.723 ms - 245[0m
+Go to https://sq.mysqhost.tk:3001/
+[0mGET /users [32m200[0m 2011.060 ms - 245[0m
+[0mGET /users [32m200[0m 2005.088 ms - 245[0m
+[0mGET /users [32m200[0m 2004.684 ms - 245[0m
+[0mGET /users [32m200[0m 2005.898 ms - 245[0m
+[0mGET /users [32m200[0m 2004.249 ms - 245[0m
+[0mGET /users [32m200[0m 2004.346 ms - 245[0m
+[0mGET /users [32m200[0m 2004.817 ms - 245[0m
+[0mPOST /users [32m201[0m 2023.199 ms - 102[0m
+[0mGET /users [32m200[0m 2004.923 ms - 361[0m
+[0mGET /users [32m200[0m 2005.592 ms - 361[0m
+[0mGET /users [32m200[0m 2004.779 ms - 361[0m
+[0mGET /users [32m200[0m 2004.692 ms - 361[0m
+[0mGET /users [32m200[0m 2004.569 ms - 361[0m
+[0mGET /users [32m200[0m 2005.859 ms - 361[0m
+[0mGET /users [32m200[0m 2004.789 ms - 361[0m
+Go to https://sq.mysqhost.tk:3001/
+[0mGET /users [32m200[0m 2012.905 ms - 361[0m
+[0mGET /users [36m304[0m 2004.417 ms - -[0m
+[0mGET /db [32m200[0m 2001.859 ms - 519[0m
+[0mGET /__rules [33m404[0m 2001.705 ms - 2[0m
+[0mGET /users [32m200[0m 2005.295 ms - 361[0m
+[0mGET /users [36m304[0m 2004.844 ms - -[0m
+[0mGET /comments [32m200[0m 2004.707 ms - 71[0m
+[0mPOST /users [32m201[0m 2026.667 ms - 97[0m
+[0mGET /users [32m200[0m 2003.985 ms - 472[0m
+[0mGET /users [36m304[0m 2004.817 ms - -[0m
+[0mGET /users [36m304[0m 2005.657 ms - -[0m
+[0mGET /users [36m304[0m 2005.378 ms - -[0m
+[0mGET /users [36m304[0m 2008.868 ms - -[0m
+[0mDELETE /users/5 [32m200[0m 2010.985 ms - 2[0m
+[0mGET /users [32m200[0m 2005.142 ms - 361[0m
+[0mGET /users [36m304[0m 2004.893 ms - -[0m
+[0mPOST /users [32m201[0m 2005.554 ms - 101[0m
+[0mGET /users [32m200[0m 2004.555 ms - 476[0m
+[0mGET /users [36m304[0m 2003.895 ms - -[0m
+Go to https://sq.mysqhost.tk:3001/
+[0mGET /db [32m200[0m 2004.706 ms - 646[0m
+[0mGET /__rules [33m404[0m 2004.946 ms - 2[0m
+[0mGET /users [32m200[0m 2006.859 ms - 476[0m
+[0mGET /__rules [33m404[0m 2002.775 ms - 2[0m
+[0mGET /db [32m200[0m 2000.820 ms - 646[0m
+[0mGET /users [36m304[0m 2004.668 ms - -[0m
+Go to https://sq.mysqhost.tk:3001/
+[0mGET /users [36m304[0m 2011.279 ms - -[0m
