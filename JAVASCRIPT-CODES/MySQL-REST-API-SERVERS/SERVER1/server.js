@@ -30,4 +30,4 @@ require("./app/routes/customer.routes.js")(app);
 let httpsServer = https.createServer(credentials, app);
 
 httpsServer.listen(3003);
-console.log("SERVER IS RUNNING NOW!")
+console.log("SERVER IS RUNNING NOW!  https://json.mysqhost.tk:3003")
