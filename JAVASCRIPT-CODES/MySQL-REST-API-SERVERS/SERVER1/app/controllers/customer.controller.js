@@ -35,7 +35,7 @@ exports.findAll = (req, res) => {
         message:
           err.message || "Some error occurred while retrieving customers."
       });
-    else res.send(data);
+    else res.header("Content-Type",'application/json'); res.send(JSON.stringify(data, null, 4));
   });
 };
 
@@ -52,7 +52,7 @@ exports.findOne = (req, res) => {
           message: "Error retrieving Customer with id " + req.params.customerId
         });
       }
-    } else res.send(data);
+    } else res.header("Content-Type",'application/json'); res.send(JSON.stringify(data, null, 4));
   });
 };
 
@@ -81,7 +81,7 @@ exports.update = (req, res) => {
             message: "Error updating Customer with id " + req.params.customerId
           });
         }
-      } else res.send(data);
+      } else res.header("Content-Type",'application/json'); res.send(JSON.stringify(data, null, 4));
     }
   );
 };
