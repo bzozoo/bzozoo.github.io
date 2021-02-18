@@ -17,6 +17,7 @@ connection.connect(error => {
 
 module.exports = connection;
 
+//Keep the MySQL Connection bzozoo mod
 setInterval(function () {
     connection.query('SELECT 1');
 	console.log("KEEEP CONNECTION");
