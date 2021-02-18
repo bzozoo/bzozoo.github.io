@@ -13,7 +13,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.header("Content-Type",'application/json'); 
+  res.send(JSON.stringify({ message: "Welcome to bezkoder MySQL JSON application." }, null, 4));
 });
 
 
@@ -30,4 +31,4 @@ require("./app/routes/customer.routes.js")(app);
 let httpsServer = https.createServer(credentials, app);
 
 httpsServer.listen(3003);
-console.log("SERVER IS RUNNING NOW!  https://json.mysqhost.tk:3003")
+console.log("SERVER IS RUNNING NOW! https://json.mysqhost.tk:3003")
