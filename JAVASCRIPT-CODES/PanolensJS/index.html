@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <meta property="og:url" content="" /> -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Panolens.JS Example code" />
+    <meta
+      property="og:description"
+      content="Panolens.js egy panorámakép megjelenítő eszköz JavaScripthez. Ebben a kis alkalmazásban egy mező képe látható 360 fokban."
+    />
+    <meta
+      property="og:image"
+      content="https://uploads.codesandbox.io/uploads/user/ff1e2fb8-7bcc-49c9-b944-77aafd82af7f/AXcA-field.jpg"
+    />
+
+    <title>PANOLENS EXAMPLE 1</title>
+  </head>
+
+  <body>
+    <script src="three.min.js"></script>
+    <script src="panolens.min.js"></script>
+    <script>
+      const panorama = new PANOLENS.ImagePanorama("field.jpg");
+      const viewer = new PANOLENS.Viewer();
+      viewer.add(panorama);
+    </script>
+  </body>
+</html>
